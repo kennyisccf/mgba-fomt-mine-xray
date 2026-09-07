@@ -1,0 +1,31 @@
+# Copyrighted game and emulator files
+*.gba
+*.GBA
+*.sav
+*.sa?
+*.ss?
+*.sgm
+*.rom
+emulator/
+game/
+
+# Local build output
+*.exe
+*.pdb
+*.lnk
+bin/
+obj/
+
+# Runtime bridge and local settings
+mgba_mine_xray_state.txt
+config.ini
+qt.ini
+portable.ini
+
+# Editor and OS files
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
